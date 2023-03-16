@@ -1,0 +1,47 @@
+.divPrincipal{
+    height: 400px;
+    width: 340px;
+    font-size: 15px;
+    background-color: rgb(230, 209, 157);
+    border-radius: 5px;
+    display: flex;
+    padding: 40px 32px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 7px 13px 17px #000;
+    border-top: 4px solid #017bab;
+    color: white;
+    position: absolute;    
+    top: 20%;
+    left: 30%;
+    transform: translate(-45% -45%);
+}
+
+
+.formularioH5{
+margin: 0;
+text-align: center;
+height: 65px;
+margin-bottom: 15px;
+border-bottom: 1px solid;
+font-size: 20px;
+
+}
+.botton{
+        width: 100%;
+        height: 40px;
+        background: #017bab;
+        border: none;
+        margin-bottom: 16px;
+        color: white
+
+}
+
+.styleInput{
+    border: 2px solid #017bab;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+    font-size: 14px;
+    }
+
