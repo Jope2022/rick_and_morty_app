@@ -19,7 +19,7 @@ return (
          Agregar</button> 
          <button className={styles.styleBoton} 
          onClick={props.random}>
-         Random Characters
+         Agregar Aleatorio
          </button> 
       </div>
    );

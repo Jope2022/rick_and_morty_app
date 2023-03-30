@@ -35,18 +35,20 @@ useEffect(() => {
 return (
     < div >
         <div className={style.divUno}>
-            <div  >
-              <h1>
-                <p className={style.Texto} >NOMBRE: <br /> <b Name></b>{character.name } </p>
+            <div className={style.Texto} >
+              <h1 >
+                <p  >NOMBRE: <b Name></b>{character.name } </p>
                 </h1>
-                <h2>
+                <h2 >
                 {character.status &&<p>STATUS: <b Status></b>{character.status} </p>}
                 {character.species && <p>SPECIE: <b Species></b>{character.species} </p>}
                 {character.gender &&<p>GENDER: <b Gender></b>{character.gender} </p> }
                 {character.origin && <p>ORIGIN: <b Origin></b>{character.origin} </p>}
                 </h2>            
             </div>
+            <div >
             <img className={style.imagenEtiqueta} src={character.image} alt="" />
+            </div>
         </div>
     </div >
    );

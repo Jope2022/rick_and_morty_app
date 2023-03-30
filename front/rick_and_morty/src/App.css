@@ -1,9 +1,10 @@
 .App {
    background-image: url(https://c.wallhere.com/photos/3a/9b/Adventure_Time_Crossover_Rick_And_Morty-1301763.jpg!d);
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 1800px;
    background-attachment: fixed;
    background-size: cover;
-   height:800px;
-  
 
 }
    

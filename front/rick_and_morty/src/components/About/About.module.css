@@ -1,7 +1,21 @@
-.divPrincipal{
-  color: white;
-  justify-content: space-around;
-  width:80%;
-  margin: auto;
-  margin-top: 15px;
+.divTitulo1{
+  margin-top: 0px;
+  color: rgb(204, 23, 23);
+  border: black 10px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 30vh; 
+  font-size: 30px;
+ 
+}
+.divTitulo2{
+  margin-top: 0px;
+  color: rgb(223, 219, 219);
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 1vh; 
+  font-size: 30px;
+  
 }

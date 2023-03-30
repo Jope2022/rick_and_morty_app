@@ -7,7 +7,7 @@ import { addFavorite, deleteFavorite } from "../../redux/actions";
 //useEffect
 export default function Card(props) {
    const dispatch = useDispatch();
-   //const myFavorites = useSelector(state => state.myFavorites)
+//   const myFavorites = useSelector(state => state.myFavorites)
    const [isFav, setIsFav] = useState(false)
 
    const handleFavorite = () => {
@@ -21,13 +21,13 @@ export default function Card(props) {
    
       }
    }
-   //useEffect(() => {
-   //   myFavorites.forEach((fav) => {
-   //      if (fav.props.id === props.id) {
-   //         setIsFav(true);
-   //      }
-   //   });
-   //}, [props.id]);
+//   useEffect(() => {
+//      myFavorites.forEach((fav) => {
+//        if (fav.props.id === props.id) {
+//            setIsFav(true);
+//         }
+//      });
+//   }, [props.id]);
 
    return (
 
@@ -53,8 +53,10 @@ export default function Card(props) {
                </Link>
                <div className={styles.containerText}>
                   <h2 className={styles.styleEspecie}>Species: {props.species}  </h2>
-                  <h2 className={styles.styleEspecie}> Gender: {props.gender} </h2>
                </div>
+               <div>
+                  <h2 className={styles.styleEspecie}> Gender: {props.gender} </h2>
+                  </div>
             </dir>
          </div>
       </div>

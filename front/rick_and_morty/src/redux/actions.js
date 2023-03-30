@@ -20,7 +20,8 @@ export const deleteFavorite = (id) => {
     try {
         return async function (dispach) {
             const response = await axios.delete(`http://localhost:3001/rickandmorty/fav/${id}`);
-            const data = response.data
+            const data = response.data 
+            console.log(data)
             return dispach({
                 type: DELETE_FAVORITE,
                 payload: id
@@ -31,20 +32,21 @@ export const deleteFavorite = (id) => {
     }
 
 }
-// export function getFavorite(){
-//     try {
-//         return async function(dispach){
-//             const response = await axios.get(`http://localhost:3001/rickandmorty/fav`)
-//         return dispach ({
-//             type: GET_FAVAL,
-//             playload: response.data
 
-// })     
-//    }
-//     } catch (error) {
-//         console.log(error.message);
+//  export function getFavorite(){
+//      try {
+//          return async function(dispach){
+//              const response = await axios.get(`http://localhost:3001/rickandmorty/fav`)
+//          return dispach ({
+//              type: GET_FAVAL,
+//              playload: response.data
+
+//  })     
 //     }
-// }
+//      } catch (error) {
+//         console.log(error.message);
+//      }
+//  }
 
 export const filterCards = (gender) => {
     return {

@@ -1,9 +1,10 @@
 import Card from "../Card/Card"
+import styles from "./Cards.module.css";
 
 export default function Cards(props) {
   const { characters } = props;
   return (characters.length === 0 ?
-        (<p> ¡Busca un personaje!</p>)
+        (<p className={styles.containerCards} > ¡Busca un personaje!</p>)
         :
        (characters.map(char => <Card
             key={char.id}
@@ -12,7 +13,7 @@ export default function Cards(props) {
             species={char.species}
             gender={char.gender}
             image={char.image}
-           // detailId={char.detailId}
+            detailId={char.detailId}
             onClose={() => props.onClose(char.id)} />
           )))
          } 

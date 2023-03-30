@@ -1,22 +1,26 @@
 .divUno{
     color: white;
-    width:50%;
-    height: 80%;
-    margin: 350px;
-    margin-top: 80px;
-    display: flex;
-    background-color: rgb(100, 100, 220);
+    background-color: rgb(145, 145, 208);
     border: solid #c24d4d;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; 
+    height: 350px;
 }
-
-  .imagenEtiqueta{
-        float: left;
-        border-radius: 15% ; 
-        margin-top: 30px;
-        margin: 10px ;
-  }
-
+.imagenEtiqueta{
+        border-radius: 25% ; 
+        margin-top: -20px;
+       float: right;
+       top: 50%; 
+       left: 50%; 
+       transform: translate(-10%, -40%); 
+     
+         
+}
 .Texto{
-  margin: 25px;
+  font-size: 10px;
+  margin: 10px 20px;
+  margin-top: 60px;
 }
