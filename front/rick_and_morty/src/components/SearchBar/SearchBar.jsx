@@ -12,7 +12,7 @@ export default function SearchBar(props) {
 return (
       <div>
          <input  className={styles.styleInput}
-          type='search' onChange={handleSearch} />
+          type='search' onChange={handleSearch} placeholder={"Ingrese un ID"} />
         
          <button className={styles.styleBoton} 
          onClick={() => props.onSearch(character)}>

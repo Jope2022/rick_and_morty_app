@@ -1,21 +1,31 @@
-.divTitulo1{
-  margin-top: 0px;
-  color: rgb(204, 23, 23);
-  border: black 10px;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  height: 30vh; 
-  font-size: 30px;
- 
-}
-.divTitulo2{
-  margin-top: 0px;
-  color: rgb(223, 219, 219);
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  height: 1vh; 
-  font-size: 30px;
+
+.capa{
+  border-radius: 2rem;
+  width: 58%;
+  height: 20rem;
+  background: radial-gradient(81, 50, 50, 0.4);
+  margin-top: 1rem; 
+   transition: all 50ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 20px;
   
+}
+.parrafo{
+  z-index: 1;
+  width: 440px;
+  padding: 100px 100px;
+  font-size: 15px;
+  line-height: 1.5;
+  box-shadow: 1px 5px 25px rgba(0,0,0,0,45);
+  border-radius: 5px;
+  
+
+  
+}
+.parrafoimg{
+  width: 240px;
+  height: 140px;
+  font-size: 15px;
+  line-height: 25.5px;
+  margin: 15px;
+    
 }
